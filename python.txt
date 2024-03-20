@@ -1,0 +1,163 @@
+Assignements:
+1-
+2-
+
+
+Python is a platform independent. Indentation language.
+https://colab.research.google.com/drive/1AeFWIxqCRU_eUYZy50rcnK5azHq69nOB
+
+Mutable objects in Python are those that can be changed after they are created, like lists or dictionaries. Immutable objects, on the other hand, cannot be changed after they are created, such as strings, integers, or tuples.
+
+print - to print the output
+Arithmetic operators - +,-,*,/,%,//,**
+variables - It is a container where we can store any kind of data.
+
+Data types - Numeric data types: int, float, complex.
+String data types: str.
+Sequence types: list, tuple, range.
+Binary types: bytes, bytearray, memoryview.
+Mapping data type: dict.
+Boolean type: bool.
+Set data types: set, frozenset. Python Numeric Data Type.
+
+: is for indentation
+
+// - floor operator used to cut the decimal points.
+% - modulus operator used to get remainder.
+
+Logical operator - or, and, not
+
+print("Arvind\nNaveen\nSurya\nAjith\nVijay")
+
+String is a sequence of characters in ""
+Index is a opposition [].start:stop:step, 0:10
+Forward indexing.
+
+.split function, .count function, .join function, range function
+
+Append function in Python adds a single element to the end of the list, whereas the extend function adds multiple elements (from an iterable) to the list.
+
+
+name3 = "steve"
+print(name3.capitalize())
+print(name3.upper())
+print(name3.lower())
+print(name3.isupper())
+print(name3.isdigit())
+
+If - If something is here do this.
+nested - one thing in another thing
+
+<
+>
+<=
+>=
+==
+=!
+
+Loop - for loop, while loop, nested loop
+for loop - take everything in order.
+break - stop the loop
+in- operatoe which checks inside.
+
+for loop - sequential order
+while loop - condition loop
+
+end - is a parameter""
+
+{}- dictionary
+in dictionary everything is key values
+
+Formula for prime number - (number**0.5)+1
+
+Functions are the blocks of code where computer do a particular task.
+
+paramter - is like a variable name.
+
+Arguments are the values given to the parameter.
+
+Modules - import math, import random
+
+sample() - used to shuffle the words
+
+
+
+
+Robert, a 14 year old kid wanted to create a really cool game where he had to guess a random number that is generated, there would be only 10 chances to guess the exact number. So write a python program that randomly picks up a number in a given range and accepts the input from the user and checks if its the same as random number picked if yes the prints the user is the winner else print you loose
+
+
+parallely keep checking if the user wants to quit the game if yes then end the game
+
+You can use the following words as a library to randomly choose from
+
+words = ['school','books','friends','maths','parents','zoology','games','television','space','rocket','chemistry','house','studies','project']
+#pick a random word from the words list, shuffle it using the random library and show it to the user using a print statement.
+
+#ask the user to enter correct word that he thinks is the right word and compare both if both matches then print that the user won else print user lost.
+
+tkinter - Tkinter is the first option for a lot of learners and developers because it is quick and convenient to use. Tkinter is a Python library that can be used to construct basic graphical user interface (GUI) applications. In Python, it is the most widely used module for GUI applications.
+
+CUI - command user interface
+GUI - Graphical user interface
+
+Label - Tkinter Label is a widget that is used to implement display boxes where you can place text or images. 
+
+
+JSON is a syntax for storing and exchanging data. JSON is text, written with JavaScript object notation.
+
+
+Oops concept:
+Class is a blueprint of an object.
+Object is something which it exist.
+
+Classes are user-defined data types that act as the blueprint for individual objects, attributes and methods. Objects are instances of a class created with specifically defined data. Objects can correspond to real-world objects or an abstract entity.
+
+The object is an entity that has state and behavior. It may be any real-world object like the mouse, keyboard, chair, table, pen, etc.
+
+Objects are variables that contain data and functions that can be used to manipulate the data. The object's data can vary in type (string, integer, etc.) depending on how it's been defined. An object is like a mini-program inside python, with its own set of rules and behaviors.
+
+Method
+The method is a function that is associated with an object. In Python, a method is not unique to class instances. Any object type can have methods.
+
+Inheritance
+Inheritance is the most important aspect of object-oriented programming, which simulates the real-world concept of inheritance. It specifies that the child object acquires all the properties and behaviors of the parent object.
+
+By using inheritance, we can create a class which uses all the properties and behavior of another class. The new class is known as a derived class or child class, and the one whose properties are acquired is known as a base class or parent class.
+It provides the re-usability of the code.
+
+Polymorphism
+Polymorphism contains two words "poly" and "morphs". Poly means many, and morph means shape. By polymorphism, we understand that one task can be performed in different ways. For example - you have a class animal, and all animals speak. But they speak differently. Here, the "speak" behavior is polymorphic in a sense and depends on the animal. So, the abstract "animal" concept does not actually "speak", but specific animals (like dogs and cats) have a concrete implementation of the action "speak".
+
+Encapsulation
+Encapsulation is also an essential aspect of object-oriented programming. It is used to restrict access to methods and variables. In encapsulation, code and data are wrapped together within a single unit from being modified by accident.
+
+
+Lamba - A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression. 
+
+filter, decorators and generators
+
+Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class. Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+ Python generator function allows you to declare a function that behaves like an iterator, providing a faster and easier way to create iterators. They can be used on an abstract container of data to turn it into an iterable object like lists, dictionaries and strings.
+
+
+Numerical python is to deal with numericals - numpy
+
+The . reshape() function rearranges the data in an ndarray into a new shape.
+
+transpose() function, it returns a new array where the original rows become columns and the original columns become rows.
+
+A stack is a linear data structure that stores items in a Last-In/First-Out (LIFO) or First-In/Last-Out (FILO) manner.
+
+What is NumPy? NumPy is a Python library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
+
+The numpy. flip() function reverses the order of array elements along the specified axis, preserving the shape of the array. Parameters : array : [array_like]Array to be input axis : [integer]axis along which array is reversed.
+
+
+The split() method is the most common way to split a string into a list in Python. This method splits a string into substrings based on a delimiter and returns a list of these substrings. In this example, we split the string "Hello world" into a list of two elements, "Hello" and "world" , using the split() method.
+
+Use Python's min() and max() to find smallest and largest values in your data. Call min() and max() with a single iterable or with any number of regular arguments. Use min() and max() with strings and dictionaries. Tweak the behavior of min() and max() with the key and default arguments. - pd,DataFrame()
+
+Pandas is a Python library used for working with data sets. It has functions for analyzing, cleaning, exploring, and manipulating data. The name "Pandas" has a reference to both "Panel Data", and "Python Data Analysis" and was created by Wes McKinney in 2008.
+
+csv - comma seperated value
